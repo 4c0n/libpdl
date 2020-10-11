@@ -1,4 +1,4 @@
-AC_INIT()
+AC_INIT(pdl, 0.1)
 AC_CANONICAL_SYSTEM
 
 AC_PROG_CC
@@ -23,8 +23,7 @@ AC_C_CONST
 
 dnl Checks for library functions.
 
-
-AM_INIT_AUTOMAKE(pdl, 0.1)
+AM_INIT_AUTOMAKE
 
 dnl Checks for libraries.
 dnl Replace `main' with a function in -lfl:
